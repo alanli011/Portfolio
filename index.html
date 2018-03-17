@@ -58,12 +58,37 @@
                         <a class="nav-link js-scroll-trigger" href="#applications">Applications</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                        <a class="nav-link js-scroll-trigger" data-toggle="modal" data-target="#contactModal">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- Contact Modal Start -->
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Contact Me!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row contactInfo">
+                        <div class="col-md-6">
+                            <i class="fa fa-envelope contactIcon"></i>
+                            <p>415.385.8920</p>
+                        </div>
+                        <div class="col-md-6">
+                            <i class="fa fa-phone contactIcon"></i>
+                            <p>li.alan011@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Masthead -->
     <header class="masthead" style="background-image: url('img/creative/backgrounds/bg-header.jpg');">
         <div class="container h-100">
