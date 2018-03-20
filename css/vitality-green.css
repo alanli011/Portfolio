@@ -506,14 +506,14 @@ header.video .scroll-down {
     }
 }
 
-.portfolio-gallery .item {
+/*.portfolio-gallery .item {
     padding: 15px;
 }
 
 .portfolio-modal {
     background-size: cover;
     background-attachment: scroll;
-}
+}*/
 
 @media (min-width: 1024px) {
     .portfolio-modal {
