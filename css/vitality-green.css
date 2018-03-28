@@ -154,10 +154,10 @@ h6 {
 @media (min-width: 992px) {
     #mainNav {
         height: auto;
-        padding: 30px 0;
+        padding: 5px 0;
         -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
         transition: padding-top 0.3s, padding-bottom 0.3s;
-        background-color: transparent;
+        background-color: #222;
     }
     #mainNav.navbar-shrink {
         padding: 5px 0;
@@ -226,6 +226,7 @@ header.masthead .masthead-title {
 header.masthead .masthead-subtitle {
     font-size: 1.5rem;
     line-height: 1.5rem;
+    color: #222;
 }
 
 header.masthead .scroll-down {
@@ -279,6 +280,7 @@ header.masthead .scroll-down .btn:active {
     header.masthead .masthead-subtitle {
         font-size: 2rem;
         line-height: 2rem;
+        color: #222;
     }
 }
 
